@@ -1,0 +1,49 @@
+@media screen and (max-width: 500px) {
+    
+    .nav-links {
+        display:  none;
+    }
+  .nav{
+    display: flex;
+    justify-content: space-around;
+  }
+}
+body {
+    background-color: #f6f8fe;
+ ;
+}
+header {
+    display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+nav {
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+    
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    
+} 
+.nav-links {
+
+   gap: 85px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+  
+}
