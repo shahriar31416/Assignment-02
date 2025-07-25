@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Responsive Webpage</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Market</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
 <body>
-   <header class="navbar">
+
+
+    <header class="navbar">
         <div class="nav-left">
-            <img src="assets/logo.png" alt="Logo" class="nav-logo" />
+            <img src="images/logo.png" alt="Logo" class="nav-logo" />
         </div>
 
         <div class="nav-right">
@@ -24,12 +24,17 @@
                 <li><a href="#">About us</a></li>
             </ul>
             <div class="nav-cart">
-                <img src="assets/cart.png" alt="Cart" />
-                <span>Cart ($56)</span>
+                <img src="images/cart.png" alt="Cart" />
+                <a href="#" style="text-decoration: none;"><span>Cart ($56)</span></a>
             </div>
         </div>
     </header>
-   <main>
+
+
+
+
+
+    <!-- Banner -->
     <section class="banner">
         <div class="banner-content">
             <h1><span class="black-text">ALWAYS</span> <span class="orange-text">FRESH</span></h1>
@@ -41,9 +46,14 @@
             </p>
         </div>
         <div class="hero-image">
-            <img src="assets/hero-flower.png" alt="Hero Flower" />
+            <img src="images/hero-flower.png" alt="Hero Flower" />
         </div>
     </section>
+
+
+
+
+    <!-- Plants Section -->
     <section class="plants">
 
 
@@ -56,59 +66,66 @@
         </div>
         <div class="plant-grid">
             <div class="plant-card">
-                <img src="assets/sample-flower-image.png" alt="Plant Image">
+                <img src="images/sample-flower-image.png" alt="Plant Image">
                 <h3>Rose Lily</h3>
                 <p>15 USD</p>
                 <button onclick="alert('Flower Added to Cart')">Add to Cart</button>
             </div>
             <div class="plant-card">
-                <img src="assets/sample-flower-image.png" alt="Plant Image">
+                <img src="images/sample-flower-image.png" alt="Plant Image">
                 <h3>Sunflower</h3>
                 <p>12 USD</p>
                 <button onclick="alert('Flower Added to Cart')">Add to Cart</button>
             </div>
             <div class="plant-card">
-                <img src="assets/sample-flower-image.png" alt="Plant Image">
+                <img src="images/sample-flower-image.png" alt="Plant Image">
                 <h3>Orchid</h3>
                 <p>18 USD</p>
                 <button onclick="alert('Flower Added to Cart')">Add to Cart</button>
             </div>
             <div class="plant-card">
-                <img src="assets/sample-flower-image.png" alt="Plant Image">
+                <img src="images/sample-flower-image.png" alt="Plant Image">
                 <h3>Daisy</h3>
                 <p>10 USD</p>
                 <button onclick="alert('Flower Added to Cart')">Add to Cart</button>
             </div>
             <div class="plant-card">
-                <img src="assets/sample-flower-image.png" alt="Plant Image">
+                <img src="images/sample-flower-image.png" alt="Plant Image">
                 <h3>Tulip</h3>
                 <p>14 USD</p>
                 <button onclick="alert('Flower Added to Cart')">Add to Cart</button>
             </div>
             <div class="plant-card">
-                <img src="assets/sample-flower-image.png" alt="Plant Image">
+                <img src="images/sample-flower-image.png" alt="Plant Image">
                 <h3>Peony</h3>
                 <p>16 USD</p>
                 <button onclick="alert('Flower Added to Cart')">Add to Cart</button>
             </div>
             <div class="plant-card">
-                <img src="assets/sample-flower-image.png" alt="Plant Image">
+                <img src="images/sample-flower-image.png" alt="Plant Image">
                 <h3>Lavender</h3>
                 <p>11 USD</p>
                 <button onclick="alert('Flower Added to Cart')">Add to Cart</button>
             </div>
             <div class="plant-card">
-                <img src="assets/sample-flower-image.png" alt="Plant Image">
+                <img src="images/sample-flower-image.png" alt="Plant Image">
                 <h3>Hydrangea</h3>
                 <p>13 USD</p>
                 <button onclick="alert('Flower Added to Cart')">Add to Cart</button>
             </div>
         </div>
     </section>
-     <section class="plant-lover">
+
+
+
+
+
+
+    <!-- Plant Lover Section -->
+    <section class="plant-lover">
         <div class="lover-image">
-            <img src="assets/flower-store.png" alt="Flower store photo">
-            <img src="assets/trusted-badge.png" class="trusted-badge spin" alt="Trusted Badge">
+            <img src="images/flower-store.png" alt="Flower store photo">
+            <img src="images/trusted-badge.png" class="trusted-badge spin" alt="Trusted Badge">
         </div>
         <div class="lover-content">
             <h2>Flower & Plants Lover</h2>
@@ -122,6 +139,11 @@
             </ul>
         </div>
     </section>
+
+
+
+    <!-- Latest Deals Header -->
+
     <section class="latest-deals">
         <div class="deals-header">
             <h2><span class="orange-text">Latest</span> <span class="black-text">Deals</span></h2>
@@ -131,16 +153,22 @@
             </p>
         </div>
     </section>
-     <section class="deals-cards">
+
+
+
+
+
+    <!-- latest deal section -->
+    <section class="deals-cards">
         <div class="deals-left">
-            <div class="deal-card small-card" style="background-image: url('assets/deal-bloom.png');">
+            <div class="deal-card small-card" style="background-image: url('images/deal-bloom.png');">
                 <div class="blur-layer"></div>
                 <div class="deal-text">
                     <p>60% Off | Bloom Plant</p>
                     <button>Shop Now</button>
                 </div>
             </div>
-            <div class="deal-card small-card" style="background-image: url('assets/deal-ana.png');">
+            <div class="deal-card small-card" style="background-image: url('images/deal-ana.png');">
                 <div class="blur-layer"></div>
                 <div class="deal-text">
                     <p>30% Off | Ana Plant</p>
@@ -149,7 +177,7 @@
             </div>
         </div>
 
-        <div class="deal-card big-card" style="background-image: url('assets/deal-zabo.png');">
+        <div class="deal-card big-card" style="background-image: url('images/deal-zabo.png');">
             <div class="blur-layer"></div>
             <div class="deal-text">
                 <p>25% Off | Zabo Plant</p>
@@ -157,7 +185,15 @@
             </div>
         </div>
     </section>
-     <section class="newsletter">
+
+
+
+
+
+
+    <!-- newsletter section -->
+
+    <section class="newsletter">
         <div class="newsletter-overlay">
             <h2>Join the colorful Bunch</h2>
             <form class="newsletter-form">
@@ -167,11 +203,14 @@
         </div>
     </section>
 
-   </main>
-   
+
+
+
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-left">
-            <img src="assets/logo.png" alt="Logo" class="footer-logo" />
+            <img src="images/logo.png" alt="Logo" class="footer-logo" />
             <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
         </div>
 
@@ -193,12 +232,13 @@
         </div>
 
         <div class="footer-socials">
-            <img src="assets/icon-linkedin.png" alt="LinkedIn" />
-            <img src="assets/icon-twitter.png" alt="Twitter" />
-            <img src="assets/icon-facebook.png" alt="Facebook" />
-            <img src="assets/icon-youtube.png" alt="YouTube" />
+            <img src="images/icon-linkedin.png" alt="LinkedIn" />
+            <img src="images/icon-twitter.png" alt="Twitter" />
+            <img src="images/icon-facebook.png" alt="Facebook" />
+            <img src="images/icon-youtube.png" alt="YouTube" />
         </div>
     </footer>
- 
+
 </body>
+
 </html>
