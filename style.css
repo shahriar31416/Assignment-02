@@ -1,4 +1,4 @@
-
+/* Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,8 @@ body {
     background-color: #fff;
 }
 
-
+/* Navbar */
+/* Reset some spacing */
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@ body {
     background-color: #f6f8fc;
 }
 
-
+/* Navbar styles */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -72,7 +73,7 @@ body {
     font-weight: 500;
 }
 
-
+/*  Responsive: iPhone (≤ 430px) */
 @media (max-width: 430px) {
     .nav-menu {
         display: none;
@@ -81,7 +82,7 @@ body {
     .navbar {
         padding: 20px 30px;
         justify-content: center;
-       
+        /*  Center entire navbar */
         gap: 80px;
     }
 
@@ -92,7 +93,7 @@ body {
 
 
 
-
+/* banner section */
 
 .banner {
     display: flex;
@@ -150,7 +151,7 @@ body {
 
     .hero-image {
         order: -1;
-       
+        /* Move image to top */
         width: 100%;
         max-width: 100%;
     }
@@ -182,7 +183,7 @@ body {
 
 
 
-
+/* Plants Section */
 
 
 
@@ -227,7 +228,7 @@ body {
     color: #000000;
 }
 
-
+/* 🌿 Card Grid */
 .plant-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -261,7 +262,7 @@ body {
     cursor: pointer;
 }
 
-
+/*  RESPONSIVE FIX FOR IPHONE (≤ 430px) */
 @media (max-width: 430px) {
     .plants {
         margin: 0 20px 50px 20px;
@@ -278,7 +279,7 @@ body {
 
     .plant-grid {
         grid-template-columns: repeat(2, 1fr) !important;
-        
+        /* 2 cards per row */
         gap: 1rem;
     }
 
@@ -289,7 +290,7 @@ body {
 
 
 
-
+/* Plant Lover Section */
 
 
 .plant-lover {
@@ -359,9 +360,9 @@ body {
         align-items: center;
         text-align: left;
         margin: 60px 30px;
-       
+        /* override desktop margin */
         padding: 0;
-       
+        /* remove side padding */
     }
 
     .lover-content {
@@ -380,7 +381,7 @@ body {
 
     .trusted-badge {
         display: none;
-       
+        /* as per requirement for mobile */
     }
 }
 
@@ -389,7 +390,7 @@ body {
 
 
 
-
+/* latest deal header section */
 .latest-deals {
     margin: 100px 150px 50px 150px;
     text-align: center;
@@ -417,7 +418,7 @@ body {
     line-height: 1.6;
 }
 
-
+/* Responsive */
 @media (max-width: 768px) {
     .latest-deals {
         margin: 60px 30px;
@@ -435,7 +436,9 @@ body {
 
 
 
+/* latest deal body section the cart */
 
+/* ===== LATEST DEALS SECTION ===== */
 .deals-cards {
     display: flex;
     gap: 20px;
@@ -461,14 +464,14 @@ body {
     background-position: center;
     display: flex;
     justify-content: center;
-    
+    /* center horizontally */
     align-items: center;
-    
+    /* center vertically */
     text-align: center;
     padding: 20px;
 }
 
-
+/* Blurred background overlay */
 .blur-layer {
     position: absolute;
     top: 0;
@@ -476,13 +479,13 @@ body {
     width: 100%;
     height: 100%;
     backdrop-filter: blur(1.5px);
-    
+    /* subtle blur */
     background-color: rgba(0, 0, 0, 0.1);
     z-index: 0;
     border-radius: 16px;
 }
 
-
+/* Text and button wrapper */
 .deal-text {
     position: relative;
     z-index: 1;
@@ -509,7 +512,7 @@ body {
     background-color: #d94c00;
 }
 
-
+/* Sizes */
 .small-card {
     height: 200px;
 }
@@ -523,7 +526,7 @@ body {
     justify-content: center;
 }
 
-
+/* Responsive */
 @media (max-width: 768px) {
     .deals-cards {
         flex-direction: column;
@@ -550,9 +553,9 @@ body {
 
 
 
-
+/* newsletter */
 .newsletter {
-    background-image: url('assets/news-letter-bg.png');
+    background-image: url('images/news-letter-bg.png');
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
@@ -608,7 +611,7 @@ body {
     background-color: #d94c00;
 }
 
-
+/* Responsive */
 @media (max-width: 768px) {
     .newsletter h2 {
         font-size: 28px;
@@ -625,7 +628,7 @@ body {
 }
 
 
-
+/* Footer */
 .footer {
     display: flex;
     justify-content: space-between;
@@ -695,7 +698,7 @@ body {
     opacity: 0.7;
 }
 
-
+/*  Responsive Fix for iPhone (≤ 430px) */
 @media (max-width: 430px) {
     .footer {
         flex-direction: column;
@@ -708,12 +711,12 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 0px;
-        
+        /*  Removes big gap between Contact Us and Features */
     }
 
     .footer-links ul {
         margin-bottom: 10px;
-        
+        /* moderate spacing between ul stacks */
     }
 
     .footer-left {
