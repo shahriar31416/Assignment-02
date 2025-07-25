@@ -177,19 +177,9 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-
-
 .plants {
     text-align: center;
     padding: 2rem;
-    background: #f7f7f7;
     margin: 0 150px 50px 150px;
 }
 
@@ -220,12 +210,6 @@ body {
     line-height: 1.2;
 }
 
-.top-picks-title {
-    margin-top: 30px;
-    font-size: 50px;
-    font-weight: bold;
-    color: #000000;
-}
 
 
 .plant-grid {
@@ -272,9 +256,7 @@ body {
         font-size: 28px;
     }
 
-    .top-picks-title {
-        font-size: 32px;
-    }
+   
 
     .plant-grid {
         grid-template-columns: repeat(2, 1fr) !important;
@@ -311,9 +293,9 @@ body {
 
 .lover-content h2 {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 45px;
     max-width: 500px;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 .lover-content ul li {
